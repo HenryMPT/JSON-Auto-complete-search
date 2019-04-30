@@ -21,6 +21,13 @@ if(searchText.length === 0)
     matches = [];
     matchList.innerHTML = '';
 }
+
+if(searchText.length != 0 && matches.length === 0)
+{
+    matches = [];
+    matchList.innerHTML = 'No country or capital found!';
+}
+
 outputHtml(matches);
 };
 
