@@ -25,7 +25,7 @@ if(searchText.length === 0)
 if(searchText.length != 0 && matches.length === 0)
 {
     matches = [];
-    matchList.innerHTML = 'No country or capital found!';
+    matchList.innerHTML = '<b>No country or capital found!</b>';
 }
 
 outputHtml(matches);
